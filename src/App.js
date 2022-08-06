@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import HeroSection from './HeroSection';
+import TextForm from './TextForm';
 import './style.css';
 
 export default function App() {
@@ -8,9 +9,7 @@ export default function App() {
     <>
       <Navbar />
       <HeroSection />
-      <div className="center">
-        <h2>Stackblitz!</h2>
-      </div>
+      <TextForm  header="Enter the text below" />
     </>
   );
 }
